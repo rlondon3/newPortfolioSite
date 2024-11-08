@@ -1,0 +1,60 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build output directories
+dist/
+build/
+
+# Public folder artifacts
+*.cache
+.cache-loader
+.vscode/
+.DS_Store
+
+# Temporary files
+*.tmp
+*.swp
+*.lock
+
+# Compiled output
+*.out
+
+# Coverage directories
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Miscellaneous
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.sass-cache
+.editorconfig
+
+# React Native
+.expo/
+.expo-shared/
+
+# SASS cache
+.sass-cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional: Uncomment the following lines if you're using Firebase or similar platforms that create cache files.
+# Firebase cache
+# .firebase/
