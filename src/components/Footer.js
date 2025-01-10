@@ -6,6 +6,7 @@ import {
 	AiFillInstagram,
 } from 'react-icons/ai';
 import { FaLinkedinIn } from 'react-icons/fa';
+//https://www.youtube.com/watch?v=_zshr7fswRQ&t=409s
 
 function Footer() {
 	let date = new Date();
@@ -20,7 +21,7 @@ function Footer() {
 					md='4'
 					className='footer-copywright'
 				>
-					<h3>Designed and Developed by Raphael Smith</h3>
+					<h3>Ralph Smith</h3>
 				</Col>
 				<Col
 					md='4'

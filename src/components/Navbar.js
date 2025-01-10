@@ -11,6 +11,7 @@ import {
 	AiOutlineHome,
 	AiOutlineFundProjectionScreen,
 	AiOutlineUser,
+	AiFillCloud,
 } from 'react-icons/ai';
 
 function NavBar() {
@@ -99,6 +100,16 @@ function NavBar() {
 								rel='noreferrer'
 							>
 								<ImBlog style={{ marginBottom: '2px' }} /> Blogs
+							</Nav.Link>
+						</Nav.Item>
+
+						<Nav.Item>
+							<Nav.Link
+								href='http://ralphscloudresume.com/'
+								target='_blank'
+								rel='noreferrer'
+							>
+								<AiFillCloud style={{ marginBottom: '2px' }} /> Resume
 							</Nav.Link>
 						</Nav.Item>
 
