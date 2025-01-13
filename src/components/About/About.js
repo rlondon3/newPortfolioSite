@@ -47,9 +47,10 @@ function About() {
 						className='about-img'
 					>
 						<div
+							className='about-img-container'
 							style={{
 								position: 'relative',
-								width: '400px', // Adjust to your desired size
+								width: '400px',
 								height: '400px',
 								borderRadius: '50%',
 								overflow: 'hidden',
